@@ -1,32 +1,7 @@
-//ACADEMIA DE DANZAS DATOS REQUERIDOS 
-const categoriaBailarin = [
-    {
-        categoria : 'infantil', multiplicador: 1.5
-    },
-    {
-        categoria : 'juvenil', multiplicador: 2.0
-    },
-    {
-        categoria : 'mayor', multiplicador: 2.5
-    },
-    {
-        categoria : 'adulto', multiplicador: 3.0
-    }
-    ]
+const carta = document.querySelector("#carta");
+const cartitas = document.querySelectorAll("#cartitas");
+console.log(cartitas);
 
-const elegirZona = [
-    {
-        zona : 'Norte', multiplicador: 3.0
-    },
-    {
-        zona : 'Sur', multiplicador: 2.5
-    },
-    {
-        zona : 'Este', multiplicador: 2.0
-    },
-    {
-        zona : 'Oeste', multiplicador: 1.5
-    }
-]
+cartitas.forEach(cartitas => console.log(cartitas))
 
-const costoPorClase = 150 
+
