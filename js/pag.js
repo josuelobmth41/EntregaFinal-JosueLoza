@@ -1,4 +1,4 @@
-const elegir = document.querySelector ("#miContenedorDeHTML") 
+/*const elegir = document.querySelector ("#miContenedorDeHTML") 
 
 const cartas = [
     { id: 1, personaje: "Mafioso" },
@@ -17,6 +17,7 @@ cartas.forEach((carta) => {
     cartaHtml.innerHTML = `
 			<h2>?</h2>
 			<button id="${carta.id}">Elegir</button>
+            <h3>
 	`
     contenedor.appendChild(cartaHtml);
 
@@ -40,6 +41,9 @@ function elegirCarta() {
 
     
 }
+*//
+
+
 
 
 
